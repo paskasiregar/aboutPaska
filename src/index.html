@@ -10,20 +10,20 @@
 
 <body>
     <!-- Navbar -->
-
-    <header class="bg-black text-white flex justify-between items-center p-12">
-        <div class="text-lg font-bold">PASKA ®</div>
+    <header class="bg-slate-950 text-white flex justify-between items-center p-12">
+        <p class="text-lg font-bold">PASKA ®</p>
         <p id="datetime"></p>
         <script>
             // Get current date and time
             var now = new Date();
-            var datetime = now.toLocaleString();
+            var datetime = now.toLocaleDateString();
             // Insert date and time into HTML
             document.getElementById("datetime").innerHTML = datetime;
         </script>
     </header>
 
-    </div>
+    <!--Hero Section-->
+    <div></div>
 </body>
 
 </html>
