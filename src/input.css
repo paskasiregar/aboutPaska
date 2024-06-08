@@ -3,4 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  #hobbycard {
+    @apply bg-blue-50 rounded-2xl border-black;
+  }
+  #funfact {
+    @apply p-20 bg-blue-50;
+  }
+
+  #funcard {
+    @apply border-2 border-blue-200 bg-white rounded-2xl;
+  }
 }

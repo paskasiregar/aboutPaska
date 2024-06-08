@@ -10,7 +10,7 @@
 
 <body>
     <!-- Navbar -->
-    <header class="bg-slate-100 text-slate-950 flex justify-between items-center p-8">
+    <header class="bg-blue-50 text-slate-950 flex justify-between items-center p-8">
         <p class="text-lg font-bold">PASKA ®</p>
         <p id="datetime"></p>
         <script>
@@ -23,16 +23,21 @@
     </header>
 
     <!--Hero Section-->
-    <main class="h-full bg-white flex-col justify-center items-center">
-        <div class="flex justify-center">Humanize Design</div>
-        <div class="flex justify-center">Simple,</div>
-        <div class="flex justify-center">Playful</div>
-        <div class="flex justify-center">Paska is an innovative Designer and Product Manager in Indonesia. Her
+    <main class="h-full bg-white flex-col justify-center items-center flex w-full p-12 space-y-2">
+        <div class="flex justify-center text-4xl font-light">Humanizing Design</div>
+        <h1 id="heading" class="flex justify-center text-8xl font-black">
+        </h1>
+        <div class="flex justify-center text-slate-500 text-lg text-center space-y-12 p-4">Paska is an innovative
+            Designer
+            and
+            Product Manager
+            in
+            Indonesia. Her
             passion
             for systemmatic design,
             structured information, and user satisfaction shines through in her work. </div>
 
-        <div class="flex justify-center">Worked for the best</div>
+        <div class="flex justify-center text-sm text-slate-400">Worked for the best</div>
         <section class="flex justify-center items-center w-full space-x-4">
             <img src="Frame 3.png" alt="nematix" width="120" height="20">
             <img src="Frame 4.png" alt="pawpaw" width="120" height="20">
@@ -44,82 +49,95 @@
     </main>
 
     <!--Motivation-->
-    <section class="flex w-full">
-        <div class="grid grid-cols-2">Motivation</div>
-        <div class="flex w-full">More than a job, Product Management and Product Design is an outlet for my vision. I
-            have the
-            power to take
-            an
-            idea from
-            concept to reality. Nothing beats the rush of seeing my product in action.
+    <section class="flex w-full p-8 space-y-2">
+        <div class="justify-between p-12 text-2xl font-bold w-240">MOTIVATION</div>
+        <div class="flex justify-between space-x-4">
+            <div class="flex w-full p-8 space-y-4 text-slate-500" id="hobbycard">More than a job, Product Management and
+                Product Design is
+                an outlet for
+                my vision. I
+                have the
+                power to take
+                an
+                idea from
+                concept to reality. Nothing beats the rush of seeing my product in action.
 
-            I get to blend art and technology to create "digital experiences" that inform, entertain, and inspire. Every
-            day
-            is
-            different - one day I may be sketching site layouts on paper, the next I'm designing responsive page
-            templates.
-            Product
-            field keeps me on my toes!</div>
+                I get to blend art and technology to create "digital experiences" that inform, entertain, and inspire.
+                Every
+                day
+                is
+                different - one day I may be sketching site layouts on paper, the next I'm designing responsive page
+                templates.
+                Product
+                field keeps me on my toes!</div>
     </section>
 
     <!--Hobbies-->
-    <section>
-        <div class="justify-between">Hobbies</div>
-        <div class="flex justify-between">
-            <div class="p-8 space-y-4" id="card">
-                <p>(1)</p>
-                <h2>APP DESIGN</h2>
-                <p>Craft intuitive navigation that makes features accessible. Choose layouts and graphics that fit your
+    <section class="flex w-full p-20 space-y-2">
+        <div class=" justify-between p-12 text-2xl font-bold w-240">HOBBIES</div>
+        <div class="flex justify-between space-x-4">
+            <div class="p-8 space-y-4" id="hobbycard">
+                <p class="text-sm text-slate-400">(1)</p>
+                <h2 class="text-blue-900 text-2xl font-black">APP DESIGN</h2>
+                <p class="text-slate-500">Craft intuitive navigation that makes features accessible. Choose layouts and
+                    graphics that fit your
                     personality.</p>
             </div>
-            <div class="p-8 space-y-4" id="card">
-                <p>(2)</p>
-                <h2>WEBSITE DESIGN</h2>
-                <p>Polish animations and microinteractions that add delight. Every detail matters when sculpting an web.
+            <div class="p-8 space-y-4" id="hobbycard">
+                <p class="text-sm text-slate-400">(2)</p>
+                <h2 class="text-blue-900 text-2xl font-black">WEBSITE DESIGN</h2>
+                <p class="text-slate-500">Polish animations and microinteractions that add delight. Every detail matters
+                    when sculpting an web.
                 </p>
             </div>
-            <div class="p-8 space-y-4" id="card">
-                <p>(3)</p>
-                <h2>PRODUCT MANAGEMENT</h2>
-                <p>The process involves roadmap prioritization, sprint planning, PRD writing, User Story generation, up
+            <div class="p-8 space-y-4" id="hobbycard">
+                <p class="text-sm text-slate-400">(3)</p>
+                <h2 class="text-blue-900 text-2xl font-black">PRODUCT MANAGEMENT</h2>
+                <p class="text-slate-500">The process involves roadmap prioritization, sprint planning, PRD writing,
+                    User Story generation, up
                     to testing.</p>
             </div>
         </div>
     </section>
+    <div>
+        <br>
+    </div>
 
     <!--Fun facts-->
-    <section>
-        <div class="justify-between">Fun Facts bout Me</div>
-        <div class="flex justify-between">
-            <div class="p-8" id="card">
-                <h1 class="text-4xl space-y-8">♈️</h1>
-                <h2>AN ARIES</h2>
-                <p>I can be as bullheaded as a ram. No, not because I'm an Aries, but because I'm a Papuan-Bataknese 😆
+    <section id="funfact" class="space-y-2">
+        <div class="justify-between p-4 text-2xl font-bold">FUN FACTS BOUT ME</div>
+        <div class="grid grid-cols-4 justify-between space-x-4 text-center">
+            <div class="p-8 space-y-4" id="funcard">
+                <h1 class="text-6xl">♈️</h1>
+                <h2 class="font-bold text-2xl">AN ARIES</h2>
+                <p class="text-slate-500">I can be as bullheaded as a ram. No, not because I'm an Aries, but because I'm
+                    a Papuan-Bataknese 😆
                 </p>
             </div>
-            <div class="p-8" id="card">
-                <h1 class="text-4xl space-y-8">👯‍♂️</h1>
-                <h2>HAS TWIN SISTERS</h2>
-                <p>I used to pray for a sibling every night, when I was still in the 1st grade. God blessed me with 2!
-                    ✌️
-                    <3 </p>
+            <div class="p-8 space-y-4" id="funcard">
+                <h1 class="text-6xl">👯‍♀️</h1>
+                <h2 class="font-bold text-2xl">HAS TWIN SISTERS</h2>
+                <p class="text-slate-500">I used to pray for a sibling every night, when I was still in the 1st grade.
+                    God blessed me with 2! ✌️ 💛</p>
             </div>
-            <div class="p-8" id="card">
-                <h1 class="text-4xl space-y-8">🖥️</h1>
-                <h2>LOOOOOVE CURVED MONITORS</h2>
-                <p>I don't know man, curved monitors are deal-breakers. I love having them, they help me be more
+            <div class="p-8 space-y-4" id="funcard">
+                <h1 class="text-6xl">🖥️</h1>
+                <h2 class="font-bold text-2xl">LOOOOOVE CURVED MONITORS</h2>
+                <p class="text-slate-500">I don't know man, curved monitors are deal-breakers. I love having them, they
+                    help me be more
                     productive (and also coffee, of course! ☕️)</p>
             </div>
-            <div class="p-4" id="card">
-                <h1 class="text-4xl space-y-8">🐱</h1>
-                <h2>STRAY FEEDER</h2>
-                <p>I bought 3 different pet-plate sets so that I can feed the stray cats around my house. They love it!
+            <div class="p-8 space-y-4" id="funcard">
+                <h1 class="text-6xl">🐱</h1>
+                <h2 class="font-bold text-2xl">STRAY FEEDER</h2>
+                <p class="text-slate-500">I bought 3 different pet-plate sets so that I can feed the stray cats around
+                    my house. They love it!
                     🤓
                 </p>
             </div>
         </div>
     </section>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
