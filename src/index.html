@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>About Paska</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <header class="bg-black text-white flex justify-between items-center p-12">
+        <div class="text-lg font-bold">PASKA ®</div>
+        <p id="datetime"></p>
+        <script>
+            // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+        </script>
+    </header>
+
+    </div>
+</body>
+
+</html>

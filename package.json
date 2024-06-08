@@ -1,0 +1,12 @@
+{
+  "name": "aboutPaska",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tw:run": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
