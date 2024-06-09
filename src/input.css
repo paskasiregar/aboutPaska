@@ -4,7 +4,7 @@
 
 @layer base {
   #hobbycard {
-    @apply bg-blue-50 rounded-2xl border-black;
+    @apply bg-blue-50 rounded-2xl border-black hover:bg-blue-200 duration-400;
   }
   #funfact {
     @apply p-20 bg-blue-50;
