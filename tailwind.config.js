@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      // fontFamily: {
-      //   sans: ["Tiny5", "sans-serif"],
-      // },
+      fontFamily: {
+        sans: ["Plus Jakarta Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
