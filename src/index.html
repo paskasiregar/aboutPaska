@@ -15,6 +15,10 @@
 </head>
 
 <body>
+
+
+
+
     <!-- Navbar -->
     <header class="bg-blue-50 text-slate-950 flex justify-between items-center p-8">
         <p class="text-lg font-bold">PASKA ®</p>
@@ -34,9 +38,27 @@
         <div class="flex justify-center text-8xl font-black">Simple,</div>
         <div class="flex justify-center text-8xl font-black">Playful, and</div>
 
-        <div
-            class="justify-center text-8xl font-black bg-gradient-to-r from-yellow-400 via-blue-500 to-violet-600 inline-block text-transparent bg-clip-text space-y-8">
-            Seamless.</div>
+        <span id="typed"></span>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+        <script>
+            var options = {
+                strings: [
+                    "<span class='justify-center text-8xl font-black bg-gradient-to-r from-yellow-400 via-blue-500 to-violet-600 inline-block text-transparent bg-clip-text'>Seamless!</span>"
+                ],
+                typeSpeed: 100,
+                // loop: true,
+                // showCursor: true,
+                // cursorChar: '|',
+                // backDelay: 500,
+                // startDelay: 500,
+
+            };
+
+            var typed = new Typed("#typed", options);
+        </script>
+
+
         <div class="flex justify-center text-slate-500 text-lg text-center space-y-20 p-4">Paska is an innovative
             Designer
             and
